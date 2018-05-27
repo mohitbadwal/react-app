@@ -1,0 +1,27 @@
+.input-div{
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+.input-div > .input-text{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    height: auto;
+    font-family: "Arial Black",sans-serif;
+    font-size:17px;
+}
+
+.input-div > .button-input{
+    position: fixed;
+    height: auto;
+    float: right;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-family: "Arial Black",sans-serif;
+    font-size:17px;
+}

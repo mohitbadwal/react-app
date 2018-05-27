@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arial Black'), local('Arial Black'),
+    url('ariblk.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+
+.item-container{
+    padding: 20px;
+    min-width: 50px;
+    text-align: left;
+}
+
+.item-container > .item-text{
+    font-family: 'Arial Black', sans-serif;
+    color: #333333;
+    font-style: bold;
+    font-size: 27px;
+
+}
+
+.item-container > .item-subText{
+    font-family: 'Arial Black', sans-serif;
+    color:#2e8b57 ;
+    font-size: 13px;
+}
+
+.item-container > .item-footer{
+    margin-top: 20px;
+    height: 1px;
+    background-color: #b6b6b6;
+}
